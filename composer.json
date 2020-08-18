@@ -1,6 +1,6 @@
 {
     "name": "sagittaracc/suql-lap",
-    "description": "SuQL query runner",
+    "description": "A database management system that supports SuQL",
     "require": {
         "sagittaracc/suql": "^3.3"
     },
