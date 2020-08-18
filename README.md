@@ -1,3 +1,3 @@
 # suql-lap
 
-SuQL Lap is a SuQL query runner.
+SuQL Lap is a database management system that support SuQL. 
