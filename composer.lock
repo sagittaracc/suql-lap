@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4461f2c4c96420cc9bb94957a247a6fc",
+    "packages": [
+        {
+            "name": "sagittaracc/suql",
+            "version": "v3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sagittaracc/suql.git",
+                "reference": "ba60a7e13cb4b9ed97b164e7611befab11e44565"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sagittaracc/suql/zipball/ba60a7e13cb4b9ed97b164e7611befab11e44565",
+                "reference": "ba60a7e13cb4b9ed97b164e7611befab11e44565",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sagittaracc",
+                    "email": "sagittaracc@gmail.com"
+                }
+            ],
+            "description": "Sugar SQL",
+            "time": "2020-08-04T07:14:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

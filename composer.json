@@ -1,0 +1,14 @@
+{
+    "name": "sagittaracc/suql-lap",
+    "description": "SuQL query runner",
+    "require": {
+        "sagittaracc/suql": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sagittaracc",
+            "email": "sagittaracc@gmail.com"
+        }
+    ]
+}
