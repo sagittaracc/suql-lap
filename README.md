@@ -4,8 +4,6 @@ SuQL Lap is a database management system that supports SuQL.
 
 Example:
 ```php
-require 'vendor/autoload.php';
-
 $lap = new SuQLLap('mysql', 'localhost', 'root', '', 'db');
 
 $suql = $lap->setSyntax(SuQLSyntax::SUQL_SYNTAX);
