@@ -10,5 +10,10 @@
             "name": "sagittaracc",
             "email": "sagittaracc@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
 }
