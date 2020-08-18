@@ -1,7 +1,7 @@
 <?php
 class SuQLLap {
   private $driver;
-  public $db;
+  private $db;
   private $syntax;
 
   function __construct($driver, $host, $username, $passwd, $dbname) {
@@ -13,6 +13,10 @@ class SuQLLap {
       'pass' => $passwd,
       'name' => $dbname
     ]);
+  }
+
+  public function getDbInstance() {
+    return $this->db;
   }
 
   public function setSyntax($syntax) {

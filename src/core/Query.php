@@ -18,12 +18,12 @@ trait Query {
   }
 
   private function execSQL($name, $params) {
-    $this->lap->db->setQuery($this->getSQL([$name]));
+    $this->lap->getDbInstance()->setQuery($this->getSQL([$name]));
 
     if (!empty($params))
-      $this->lap->db->bindParams($params);
+      $this->lap->getDbInstance()->bindParams($params);
 
-    return $this->lap->db->exec();
+    return $this->lap->getDbInstance()->exec();
   }
 
   private function execCMD($name) {
