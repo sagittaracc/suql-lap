@@ -1,4 +1,4 @@
-# suql-lap
+# SuQL Lap
 
 SuQL Lap is a database management system that supports [SuQL](https://github.com/sagittaracc/suql).
 
